@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    color:#00b0ff;
+    border-bottom: 3px solid #00b0ff;
+}
+
+h2 {
+    color:#00b0ff;
+}
+h2:hover {
+    transition: .4s;
+    transform: scale(1.1);
+}
+
+#img {
+    width:464px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.Calculator {
+    margin:20px;
+    padding:10px;
+    text-align: center;
+    border:2px solid #eee; 
+    border-radius: 20px;  
+}
+
+.screen {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width:100%;
+    font-size: 30px;
+    color:#2f2e41;
+    border-right: 3px solid #00b0ff;
+    border-left: 3px solid #00b0ff;
+    border-bottom: 3px solid #00b0ff;
+    border-radius:0px 0px 20px 20px;
+    padding: 5px;
+    height: 40px;
+    overflow:hidden;
+    max-width:224px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height:50px;
+    margin:2px;
+    background: #eee;
+    border-radius: 50px;
+    border:none;
+    color:#2f2e41;
+    font-size: 20px;    
+}
+.btn:hover {
+    transition: .4s;
+    background: #ccc;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.op {
+    text-align: center;
+    background-color: #00b0ff;
+    color:#fff;
+    font-size: 26px;
+    border:none;
+}
+
+.zero {
+    width:104px;
+}
+
+.op:hover {
+    transition: .4s;
+    background: #1a87b9;
+}
+
+footer {
+    text-align: center;
+    color:#2f2e41;
+    background: #eee;
+}
+
+@media screen and (max-width:854px) {
+    #img {
+        display: none;
+    }
+}
